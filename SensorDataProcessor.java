@@ -24,6 +24,7 @@ public class SensorDataProcessor { // changed file name to suit the class name {
 // calculate data {Mohammed Aloufi 25-50}
 public void calculate(double d) {
     int i, j, k;
+    // i = RacingData, j = ModifiedData, k = Limits
     double[][][] data2 = new double[data.length][data[0].length][data[0][0].length];
 
     BufferedWriter out;
